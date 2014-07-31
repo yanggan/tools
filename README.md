@@ -28,6 +28,31 @@ Options:
  --install    install jekyll in localhost
 
 
+all post 
+
+----------Posts Name-----------------------Creat Time-------
+NO.1 learn-jekyll-book			    2014-04-05
+NO.2 Ruijie_Switch_setup			    2014-05-02
+NO.3      Akuai_play			    2014-05-04
+NO.4       Web-books			    2014-07-28
+NO.5           wsshd			    2014-04-14
+NO.6        wiki-cdn			    2014-04-27
+NO.7        git-push			    2014-04-17
+NO.8    markdown-use			    2014-04-07
+NO.9    jekyll-tools			    2014-04-06
+--------------------------------------------------------------
+
+
+```
+search blog 
+
+```
+yg@ASUS:~$ bk -l book
+lookup the post!
+----------Posts Name-----------------------Creat Time-------
+NO.1 learn-jekyll-book			    2014-04-05
+NO.2       Web-books			    2014-07-28
+--------------------------------------------------------------
 ```
 ## 2.端口扫描器 
 
