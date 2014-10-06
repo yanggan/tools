@@ -9,7 +9,7 @@ import getopt
 
 """
 SUDO_PASSWD = "1"
-BLOG_PATH = "/home/yg/blog/yanggan.github.io"
+BLOG_PATH = "/home/yg/yanggan.me/yanggan.github.io"
 
 class InitJekyll:
     
@@ -113,7 +113,9 @@ class WriteMan:
 
             #写入开头信息例如 layout,title
             title_message = "title: "  + post_name +"\n"
-            head_message = ["---\n","layout: post\n",title_message,"---\n"]
+            tags_message = "tags: news\n"
+            cate_message = "categories: news\n"
+            head_message = ["---\n","layout: post\n",title_message,tags_message,cate_message,"---\n"]
             #以每行的方式写入文件 
             f.writelines(head_message)
             f.close()
